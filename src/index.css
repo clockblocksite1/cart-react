@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 640px) {
+    /* Ваши стили для адаптации на маленьких экранах */
+    table {
+      display: block;
+    }
+  
+    /* Дополнительные стили для ячеек, если необходимо */
+    td {
+      /* ваш стиль */
+    }
+  
+    /* и так далее */
+  }
